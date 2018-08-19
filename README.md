@@ -7,8 +7,8 @@ Identity is membership system that allows us to add login functionality to our a
 ## So how it works
 Using AuthorizeFilter, we can control the access in our MVC/Web API application by specifying this attribute in controller or action method. Role based authorization checks whether login user role has access to the page or not. Here developer embeds the roles with their code.
 
-## How to create a user and asign a role
-creating and asigning a role to a user is easy just
+## How to create a user and assign a role
+creating and assigning a role to a user is easy just
 
     user = new IdentityUser () {
     UserName = "Amine@Amine.com.com",
